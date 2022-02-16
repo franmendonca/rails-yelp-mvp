@@ -9,7 +9,6 @@ class RestaurantsController < ApplicationController
 
   def new
     @restaurant = Restaurant.new
-    @category = %w(chinese italian japanese french belgian)
   end
 
   def create
